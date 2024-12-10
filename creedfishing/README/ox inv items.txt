@@ -1,0 +1,92 @@
+items for ox inventory 
+
+	['fishingrod'] = {
+		label = 'Fishing Rod',
+		weight = 1,
+		stack = true,
+		close = true,
+		client = {
+			event = 'fishing:start'
+		}
+	},	
+
+
+	['salmon'] = {
+		label = 'salmon',
+		weight = 15,
+	},
+ 
+	['tailor'] = {
+		label = 'tailor',
+		weight = 15,
+	},
+ 
+	['flathead'] = {
+		label = 'flathead',
+		weight = 15,
+	},
+	
+	['bream'] = {
+		label = 'bream',
+		weight = 15,
+	},
+
+	['whiting'] = {
+		label = 'whiting',
+		weight = 15,
+	},
+
+	['snapper'] = {
+		label = 'snapper',
+		weight = 15,
+	},
+
+	['mullet'] = {
+		label = 'mullet',
+		weight = 15,
+	},
+
+	['shark'] = {
+		label = 'shark',
+		weight = 30,
+	},
+
+	['viperfish'] = {
+		label = 'viperfish',
+		weight = 15,
+	},
+
+	['squid'] = {
+		label = 'squid',
+		weight = 15,
+	},
+
+	['lanternfish'] = {
+		label = 'lanternfish',
+		weight = 15,
+	},
+
+	['hatchetfish'] = {
+		label = 'hatchetfish',
+		weight = 15,
+	},
+
+	['message_in_a_bottle'] = {
+		label = 'message in a bottle',
+		weight = 15,
+		stack = true,
+		close = true,
+		client = {
+			event = 'fishing:useMessageBottle'
+		}
+	},
+
+	['fishingbait'] = {
+		label = 'fishingbait',
+		weight = 15,
+	},
+
+	['deepseabait'] = {
+		label = 'deepseabait',
+		weight = 15,
+	},
